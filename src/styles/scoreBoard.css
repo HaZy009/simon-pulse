@@ -1,0 +1,24 @@
+.score-board {
+  width: 170px;
+  padding: 20px;
+  background: var(--card);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-self: center;
+  align-self: end;
+  margin-bottom: 0;
+}
+
+.score-card {
+  background: var(--score-card);
+  border-radius: 8px;
+  padding: 18px 14px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.best-score-card {
+  color: var(--primary);
+}

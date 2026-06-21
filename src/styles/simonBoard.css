@@ -1,0 +1,97 @@
+.simon-container {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 25px;
+}
+
+.simon-circle {
+  width: 420px;
+
+  height: 420px;
+
+  border: 6px solid white;
+
+  border-radius: 50%;
+
+  position: relative;
+
+  overflow: hidden;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-rows: 1fr 1fr;
+}
+
+.top-left {
+  background: var(--top-left);
+}
+
+.top-right {
+  background: var(--top-right);
+}
+
+.bottom-left {
+  background: var(--bottom-left);
+}
+
+.bottom-right {
+  background: var(--bottom-right);
+}
+
+.simon-button {
+  border: 3px solid white;
+}
+
+.center-score {
+  width: 75px;
+
+  height: 75px;
+
+  background: black;
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 2rem;
+
+  font-weight: bold;
+}
+
+.new-game-btn {
+  width: 260px;
+
+  height: 55px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: var(--primary);
+
+  color: white;
+
+  font-size: 2rem;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
