@@ -8,6 +8,6 @@
   height: calc(100vh - 65px);
   display: grid;
   grid-template-columns: 220px 1fr 260px;
-  align-items: end;
-  padding: 0 45px 60px;
+  align-items: center;
+  padding: 20px 45px 30px;
 }

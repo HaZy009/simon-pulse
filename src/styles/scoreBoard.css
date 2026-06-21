@@ -7,8 +7,8 @@
   flex-direction: column;
   gap: 18px;
   justify-self: center;
-  align-self: end;
   margin-bottom: 0;
+  position: relative;
 }
 
 .score-card {
@@ -21,4 +21,20 @@
 
 .best-score-card {
   color: var(--primary);
+}
+
+.score-star-top-left {
+  position: absolute;
+  left: -55px;
+  top: -25px;
+  width: 70px;
+  pointer-events: none;
+}
+
+.score-stars-bottom-right {
+  position: absolute;
+  right: -35px;
+  bottom: -25px;
+  width: 70px;
+  pointer-events: none;
 }

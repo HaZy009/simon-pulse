@@ -1,9 +1,8 @@
 .settings-wrapper {
+  min-height: 260px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-self: start;
+  justify-content: flex-end;
 }
 
 .settings-panel {

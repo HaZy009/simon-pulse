@@ -95,3 +95,13 @@
 
   cursor: pointer;
 }
+
+.simon-button {
+  cursor: pointer;
+  border: none;
+}
+
+.simon-button.active {
+  filter: brightness(1.6);
+  transform: scale(0.97);
+}
