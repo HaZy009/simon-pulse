@@ -59,3 +59,19 @@
 .settings-button img {
   width: 100%;
 }
+
+@media (max-width: 900px) {
+  .settings-wrapper {
+    min-height: auto;
+    align-items: center;
+  }
+
+  .settings-panel {
+    width: 180px;
+  }
+
+  .settings-button {
+    width: 65px;
+    height: 65px;
+  }
+}

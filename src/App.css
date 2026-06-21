@@ -1,13 +1,22 @@
 .app {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: var(--background);
 }
 
 .game-layout {
-  height: calc(100vh - 65px);
+  min-height: calc(100vh - 65px);
   display: grid;
   grid-template-columns: 220px 1fr 260px;
   align-items: center;
   padding: 20px 45px 30px;
+}
+
+@media (max-width: 900px) {
+  .game-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px 20px 40px;
+    justify-items: center;
+  }
 }

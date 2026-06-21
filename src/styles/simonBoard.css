@@ -105,3 +105,34 @@
   filter: brightness(1.6);
   transform: scale(0.97);
 }
+
+@media (max-width: 600px) {
+  .simon-circle {
+    width: 320px;
+    height: 320px;
+  }
+
+  .center-score {
+    width: 60px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+
+  .new-game-btn {
+    width: 220px;
+    height: 50px;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .simon-circle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .new-game-btn {
+    width: 200px;
+    font-size: 1.4rem;
+  }
+}
