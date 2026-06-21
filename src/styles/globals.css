@@ -1,0 +1,29 @@
+:root {
+  /* UI */
+
+  --background: #020617;
+
+  --primary: #ff0088;
+
+  --card: #0f172a;
+
+  --border: #334155;
+
+  --text: #ffffff;
+
+  --secondary-text: #94a3b8;
+
+  --score-card: #475569;
+
+  --disabled: #64748b;
+
+  /* Simon buttons */
+
+  --top-left: #ff0088;
+
+  --top-right: #718096;
+
+  --bottom-left: #e4bfd4;
+
+  --bottom-right: #f2f2f2;
+}
